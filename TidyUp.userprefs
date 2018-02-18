@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{F432CECB-F1A4-44D7-B21B-B095ECF9B2F4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BindingLibrary/WritePadAPI.cs">
+    <Files>
+      <File FileName="BindingLibrary/WritePadAPI.cs" Line="43" Column="92" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Ad-Hoc|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TidyUp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.e05cf72e67024d6b3a5bf56721c2fcd2a5fc51d1" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>xamarin_sample/TidyUp.csproj</String>
+  </DisabledProjects>
+</Properties>

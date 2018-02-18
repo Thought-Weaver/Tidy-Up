@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{F432CECB-F1A4-44D7-B21B-B095ECF9B2F4}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TidyUp</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <ReleaseVersion>1.0</ReleaseVersion>
+    <TargetFrameworkIdentifier>Xamarin.iOS</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchArch>i386</MtouchArch>
+    <AssemblyName>WritePadSDKXamarinSample</AssemblyName>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <CodesignKey>iPhone Developer: Logan Apple (TMYSX4AJ2W)</CodesignKey>
+    <CodesignProvision>VS: com.testcompany.testingappnames Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386</MtouchArch>
+    <AssemblyName>xamarin_sample</AssemblyName>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <CodesignProvision>VS: com.testcompany.testingappnames Development</CodesignProvision>
+    <CodesignKey>iPhone Developer: Logan Apple (TMYSX4AJ2W)</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchDebug>True</MtouchDebug>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer: Logan Apple (TMYSX4AJ2W)</CodesignKey>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchArch>ARMv7, ARMv7s, ARM64</MtouchArch>
+    <AssemblyName>WritePadSDKXamarinSample</AssemblyName>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchLink>Full</MtouchLink>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>VS: com.testcompany.testingappnames Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Logan Apple (TMYSX4AJ2W)</CodesignKey>
+    <ConsolePause>false</ConsolePause>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <AssemblyName>WritePadSDKXamarinSample</AssemblyName>
+    <MtouchSdkVersion>7.1</MtouchSdkVersion>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>VS: com.testcompany.testingappnames Development</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Logan Apple (TMYSX4AJ2W)</CodesignKey>
+    <BuildIpa>true</BuildIpa>
+    <ConsolePause>false</ConsolePause>
+    <CodesignProvision>VS: com.testcompany.testingappnames Development</CodesignProvision>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <AssemblyName>WritePadSDKXamarinSample</AssemblyName>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Developer: Logan Apple (TMYSX4AJ2W)</CodesignKey>
+    <ConsolePause>false</ConsolePause>
+    <CodesignProvision>VS: com.testcompany.testingappnames Development</CodesignProvision>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <AssemblyName>WritePadSDKXamarinSample</AssemblyName>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="MainViewController.cs" />
+    <Compile Include="xamarin_sampleViewController.designer.cs">
+      <DependentUpon>MainViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InkView.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="iPhoneLaunch.xib" />
+    <InterfaceDefinition Include="iPadLaunch.xib" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\..\Dictionaries\Italian.dct">
+      <Link>Dictionaries\Italian.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Brazilian.dct">
+      <Link>Dictionaries\Brazilian.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Danish.dct">
+      <Link>Dictionaries\Danish.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\English.dct">
+      <Link>Dictionaries\English.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Dutch.dct">
+      <Link>Dictionaries\Dutch.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\EnglishUK.dct">
+      <Link>Dictionaries\EnglishUK.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Finnish.dct">
+      <Link>Dictionaries\Finnish.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\French.dct">
+      <Link>Dictionaries\French.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\German.dct">
+      <Link>Dictionaries\German.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\MedicalUS.dct">
+      <Link>Dictionaries\MedicalUS.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Norwegian.dct">
+      <Link>Dictionaries\Norwegian.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Portuguese.dct">
+      <Link>Dictionaries\Portuguese.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Spanish.dct">
+      <Link>Dictionaries\Spanish.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Swedish.dct">
+      <Link>Dictionaries\Swedish.dct</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
+    <BundleResource Include="..\..\Dictionaries\Indonesian.dct">
+      <Link>Dictionaries\Indonesian.dct</Link>
+    </BundleResource>
+    <BundleResource Include="Resources\full_logo.jpg" />
+    <BundleResource Include="Resources\pencil_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-72.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-72%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-50.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Icon-Small-50%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Default-568h%402x.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\58x58.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\87x87.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\40x40.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\60x60.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\80x80.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\120x120.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\180x180.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\29x29.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\20x20.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\76x76.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\152x152.png" />
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\167x167.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BindingLibrary\BindingLibrary.csproj">
+      <Project>{2E456650-2AC6-4D6D-9887-96030794EA3C}</Project>
+      <Name>BindingLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

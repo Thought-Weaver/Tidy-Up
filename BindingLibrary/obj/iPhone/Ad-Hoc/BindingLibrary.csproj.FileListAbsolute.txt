@@ -1,0 +1,5 @@
+/Users/logan/Projects/Xamarin/WritePadSDKiOSSample/BindingLibrary/bin/iPhone/Ad-Hoc/WritePadAPI.cs
+/Users/logan/Projects/Xamarin/WritePadSDKiOSSample/BindingLibrary/bin/iPhone/Ad-Hoc/BindingLibrary.dll
+/Users/logan/Projects/Xamarin/WritePadSDKiOSSample/BindingLibrary/obj/iPhone/Ad-Hoc/optimized/
+/Users/logan/Projects/Xamarin/WritePadSDKiOSSample/BindingLibrary/obj/iPhone/Ad-Hoc/BindingLibrary.csproj.CoreCompileInputs.cache
+/Users/logan/Projects/Xamarin/WritePadSDKiOSSample/BindingLibrary/obj/iPhone/Ad-Hoc/BindingLibrary.dll
